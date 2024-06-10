@@ -18,7 +18,7 @@ class User(Base):
     username = Column(String(10), index=True)
     department_id = Column(Integer, ForeignKey('departments.id'), index=True)
 
-    department = relationship("Departent", back_populates="users")
+    department = relationship("Department", back_populates="users")
     assets = relationship("Asset", back_populates="user")
 
 class Asset(Base):
