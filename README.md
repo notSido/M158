@@ -10,7 +10,7 @@
   MYSQL_USER=asset_server
   MYSQL_PASSWORD=letmein1
   ```
-5. run sh```docker-compose up --build```
+5. run ```docker-compose up --build```
 6. profit
 
 ## Testing
